@@ -6,8 +6,7 @@ const quadratic = (a, b, c) => {
        if (discriminant >= 0) { // Step 2: Check if roots exist
            const x1 = (-b + Math.sqrt(discriminant)) / (2 * a);
            const x2 = (-b - Math.sqrt(discriminant)) / (2 * a);
-        return { x1, x2 };
-        // return x1 = ${x1}, x2 = ${x2};
+        return `x1 = ${x1}, x2 = ${x2}`;
        } else {
            return "No root!";
        }
